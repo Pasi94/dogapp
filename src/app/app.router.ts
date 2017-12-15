@@ -7,8 +7,7 @@ import { RandomComponent } from './pages/random/random.component';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'images/:id', component: DogDetailsComponent },
-  { path: 'home/random', component: RandomComponent },
+  { path: 'images/:id', component: DogDetailsComponent }
 ];
 
 @NgModule({
