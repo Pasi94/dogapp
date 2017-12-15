@@ -21,6 +21,7 @@ export class DogDetailsComponent implements OnInit {
     this.dog = {
       id: '',
       name: '',
+      image: '',
     };
     this.currentRoute.params.subscribe((params: Params) => {
       const id = params['id'];

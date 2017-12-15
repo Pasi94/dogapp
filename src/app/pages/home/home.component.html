@@ -6,7 +6,7 @@
     </mat-toolbar-row>
 </mat-toolbar>
 
-<mat-list class="center-align">
+<mat-list>
     <h2 mat-header>Breed List</h2>    
     <mat-list-item [routerLink]="['/images/',dog.id]"  *ngFor="let dog of dog">
    <button mat-button>{{dog.name}} </button>

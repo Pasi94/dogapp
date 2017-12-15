@@ -1,6 +1,7 @@
 export interface Dog {
 
   id: string;
-  name: string;  
+  name: string;
+  image: any;  
 
 }

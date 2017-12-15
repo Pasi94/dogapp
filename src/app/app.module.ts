@@ -31,7 +31,7 @@ import { MaterialModule } from './material.module';
     BrowserAnimationsModule,
     MaterialModule,
     HttpModule,
-    
+
   ],
   providers: [APIService, DogService],
   bootstrap: [AppComponent]
